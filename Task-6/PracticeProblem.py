@@ -1,6 +1,6 @@
 import json
 import os
-FILE = "employees.json"
+FILE = "C:/Users/Nada/Documents/IEEE-CS-DataScience-26/Task-6/employees.json"
 
 class Employee:
     def __init__(self, name, salary):
@@ -48,8 +48,9 @@ def main():
         elif choice == "2":
             if not employees:
                 print("No employees")
-            for emp in employees:
-                emp.display_info()
+            else:
+                for emp in employees:
+                    print(emp.display_info())
 
         elif choice == "3":
             print("bye")

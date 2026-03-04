@@ -6,5 +6,13 @@
   {
     "name": "Bassant",
     "salary": 6000.0
+  },
+  {
+    "name": "Farah",
+    "salary": 60000.0
+  },
+  {
+    "name": "Shada",
+    "salary": 50000.0
   }
 ]
